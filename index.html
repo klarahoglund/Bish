@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+
+
+    <link rel="stylesheet" href="style.css">
+
+
+    <title>Bish-Bosh 2.0</title>
+
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+            <a class="navbar-brand ps-4" href="#">Bish-Bosh 2.0
+
+            </a>
+    </header>
+    <main>
+        <div class="container ">
+            <div class="row ">
+                <div class="  col-4 bg-1  layoutHeight">
+                    <h2 class=" text-center pt-5 pb-3">Instruktioner</h2>
+                    <p class="p-5">Grunden till Bish-Bosh tar ett spann av tal och går igenom
+                        alla tal och kollar vilka av talen som är jämt delbara med 2 olika valda siffror.
+                        Är siffran jämt delbart med första valda siffran leder till bish. Är siffran jämt delbart med
+                        andra valda siffran leder till bosh. Är siffran jämt delbart med både första och andra valda
+                        siffran leder det till bish-bosh. Är siffran inte delbar med någon av de valda siffrorna så
+                        skrivs den ut.</p>
+                    <p class="p-5">Välj det spann från lägsta till högsta tal du vill undersöka. Välj det första numbret
+                        du vill undersöka om varje siffra i ditt valda spann är jämt delbart med. Välj det andra numret
+                        du vill undersöka om det är
+                        jämt delbart med. </p>
+
+
+
+
+                </div>
+                <div class=" col-4  layoutHeight">
+                    <h2 class="text-center pt-5 pb-3">Välj parametrar</h2>
+                    <div CLASS=" container"></div>
+                    <div class=" row-cols-3"></div>
+                    <div class="col-4 bg-2 layoutPlatta2">
+                        <h5>Välj ditt spann</h5>
+                        <form>
+                            <div class="form-group ms-3 me-3 ">
+                                <label for="Lägsta siffran "></label>
+                                <input type="text" id="lowNumber" class="form-control bg-6 "
+                                    placeholder="Lägsta siffran ">
+                                <label for="Högsta siffran "></label>
+                                <input type="text" id="hightNumber" class="form-control bg-6 "
+                                    placeholder="Lägsta siffran ">
+
+
+                            </div>
+                        </form>
+                    </div>
+                    <div class=" col-4 bg-5 layoutPlatta">
+                        <h5>Välj nummer för Bish</h5>
+                        <form>
+                            <div class="form-group ms-3 me-3">
+                                <label for="Välj den första siffran "></label>
+                                <input type="text" id="firstNumber" class="form-control bg-6 "
+                                    placeholder="Första siffran ">
+
+
+
+                            </div>
+                        </form>
+                    </div>
+                    <div class=" col-4 bg-3 layoutPlatta">
+                        <h5>Välj nummer för Bosh</h5>
+                        <form>
+                            <div class="form-group ms-3 me-3 ">
+                                <label for="Välj den andra siffran "></label>
+                                <input type="text" id="secondNumber" class="form-control bg-6 "
+                                    placeholder="Andra siffran ">
+
+
+
+                            </div>
+                        </form>
+                    </div>
+
+
+                </div>
+                <div class="col-4 bg-4 layoutHeight">
+                    <h2 class="text-center pt-5 pb-3">Så här blir det</h2>
+                    <button type="Visa resultat" id="btn"
+                        class=" btn bg-2 btn-secondary mt-4 ps-5 pe-5 m-">Submit</button>
+                    <p id="output" class=" p-5"></p>
+
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+    <footer>
+        <nav class="  bg-dark navbar-dark text-center fixed-bottom mt-2">
+            <div class="text-center p-3 text-white-50">
+                © 2020 Copyright: Klara Höglund</div>
+    </footer>
+
+    <script src=" bishbosh.js">
+
+    </script>
+</body>

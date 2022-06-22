@@ -1,0 +1,54 @@
+body {
+    background-color: #ebdbae;
+    min-width: 900px;
+}
+
+main {
+    min-width: 900px;
+}
+
+.bg-1 {
+    background-color: #e24e42;
+}
+
+.bg-2 {
+    background-color: #e98000;
+}
+
+.bg-3 {
+    background-color: #eb6e80;
+}
+
+.bg-4 {
+    background-color: #008f95;
+}
+
+.bg-5 {
+    background-color: #075812bb;
+}
+
+.bg-6 {
+    background-color: #ebdbae;
+}
+
+.layoutHeight {
+    height: 800px;
+    margin-top: 100px;
+}
+
+.layoutPlatta {
+    height: 200px;
+    width: 415px;
+}
+
+h5 {
+    text-align: center;
+    font-weight: light;
+    padding-top: 10px;
+    padding-bottom: 0;
+}
+
+.layoutPlatta2 {
+    height: 230px;
+    width: 415px;
+}
