@@ -1,11 +1,11 @@
 body {
     background-color: #ebdbae;
-    min-width: 900px;
+    min-width: 600px;
+
+
 }
 
-main {
-    min-width: 900px;
-}
+
 
 .bg-1 {
     background-color: #e24e42;
@@ -32,7 +32,7 @@ main {
 }
 
 .layoutHeight {
-    height: 800px;
+    min-height: 800px;
     margin-top: 100px;
 }
 
@@ -51,4 +51,69 @@ h5 {
 .layoutPlatta2 {
     height: 230px;
     width: 415px;
+}
+
+.lettersSpace {
+    letter-spacing: 1px;
+}
+
+@media screen and (min-width: 576px) {
+    .layoutPlatta2 {
+        height: 230px;
+        width: 157px;
+    }
+
+    .layoutPlatta {
+        height: 200px;
+        width: 157px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .layoutPlatta2 {
+        height: 230px;
+        width: 218px;
+    }
+
+    .layoutPlatta {
+        height: 200px;
+        width: 218px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .layoutPlatta2 {
+        height: 230px;
+        width: 297px;
+    }
+
+    .layoutPlatta {
+        height: 200px;
+        width: 297px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .layoutPlatta2 {
+        height: 230px;
+        width: 355px;
+    }
+
+    .layoutPlatta {
+        height: 200px;
+        width: 355px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .layoutPlatta2 {
+        height: 230px;
+        width: 415px;
+    }
+
+    .layoutPlatta {
+        height: 200px;
+        width: 415px;
+    }
+
 }
